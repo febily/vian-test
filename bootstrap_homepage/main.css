@@ -1,0 +1,77 @@
+ .bs-example{
+        margin: 20px;
+    }
+    .nav-item{
+      font-size: 20px;
+        letter-spacing: 3px;
+
+    }
+    #nava{
+            padding-right: 30px;
+            padding-left: 30px;
+    }
+   .button
+    {
+      background-color:#f1bb4e;
+        border-radius: 25px;
+        font-size: 15px;
+        width: 90px;
+        height: 30px;
+        font-weight: bold;
+       text-align: center;
+       padding-bottom: 10px;}
+
+        a.nav-item nav-link button{
+          text-align: center;
+        }
+     #try{
+           background-color: white; color: black; border-radius:12px;
+     }
+     .container{
+      padding: 50px;
+      padding-bottom: 10px;
+      margin: auto;
+    
+     }
+     hr{
+      height: 1px;
+      background-color: #13DEB4;
+     }
+     #row{
+      width: 70%;
+      margin: auto;
+      align-content: center;
+      padding: 30px;
+     }
+     .card-body{
+      text-align: center;
+     }
+     .col-xs-3{
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+     }
+    .form-control{
+      border-radius: 40px;
+     }
+     .g-btn--yellow {
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFBE5F), to(#FF9800));
+    background: linear-gradient(#FFBE5F, #FF9800)
+}
+.g-btn--yellow.has-border {
+    border-color: #ec8d00
+}
+.g-btn--yellow:hover {
+    background: #FF9800
+}
+.g-btn {
+  border-radius: 15px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    padding: .7rem 1.2rem;
+    outline: 0
+}
