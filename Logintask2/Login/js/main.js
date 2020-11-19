@@ -4,8 +4,8 @@
     $(document).ready(function(){
     // Get value on button click and show alert
     $("#myBtn").click(function(){
-     Cookies.set("uname", $("#email").val()); 
-       alert( Cookies.get("uname") );
+   $.cookie('userName', 'caarif123@gmail.com');
+       alert( Cookies.get('userName') );
     });
 });
     /*==================================================================
