@@ -5,7 +5,7 @@
     // Get value on button click and show alert
     $("#myBtn").click(function(){
    $.cookie('userName', 'caarif123@gmail.com');
-       alert( Cookies.get('userName') );
+       alert( $.cookie('userName') );
     });
 });
     /*==================================================================
